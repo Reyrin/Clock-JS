@@ -1,0 +1,18 @@
+{
+  "name": "clock-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://reyrin.github.io/Todo-JS/",
+  "scripts": {
+    "start": "concurrently \"http-server -a localhost -p 3002 ./src\" \"start http://localhost:3002\"",
+    "deploy": "gh-pages -d src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "gh-pages": "^3.2.3",
+    "http-server": "^14.1.0"
+  }
+}
